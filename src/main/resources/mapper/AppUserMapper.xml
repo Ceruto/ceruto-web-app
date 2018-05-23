@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ceruto.app.mapper.AppUserMapper" >
+
+	<select id="getAppUserInfo" resultType="AppUser">
+		SELECT name,
+				login_name as loginName,
+				ent_id as entId,
+				mobile,
+				uaa_id as uaaId,
+				id
+		from sys_user su
+		where su.login_name = #{login_name} and su.password = #{password}
+	</select>
+
+</mapper>

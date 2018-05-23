@@ -1,0 +1,6 @@
+${AnsiColor.BRIGHT_GREEN}
+
+Ceruto - web-deomo ver1.0.0
+
+${AnsiColor.BRIGHT_BLUE}
+::: EIMS-APP  :::   Spring-Boot ${spring-boot.version}

@@ -1,8 +1,8 @@
-# ceruto-web-app
+# ceruto-web-app v0.1
 首次提交。
 
 
-# ceruto-web-app
+# ceruto-web-app v0.2
 maven install 后规范
 xxxx-{version}.tar.gz
 
